@@ -1,0 +1,689 @@
+1538582443819	geckodriver	INFO	geckodriver 0.21.0
+1538582443846	geckodriver	INFO	Listening on 127.0.0.1:58299
+1538582446938	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.2aU5pdhh7U3m"
+1538582450360	Marionette	INFO	Listening on port 58308
+1538582450444	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538582450485	Marionette	DEBUG	[6442450945] Frame script loaded
+1538582450487	Marionette	DEBUG	[6442450945] Frame script registered
+[Parent 1308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16860, Chrome_[Child 14924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14924, [Parent 1308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2572, Chro1538582469092	Marionette	INFO	Stopped listening on port 58308
+[GPU 145
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538582685704	geckodriver	INFO	geckodriver 0.21.0
+1538582685717	geckodriver	INFO	Listening on 127.0.0.1:58596
+1538582692569	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.XKFTJAsBUrCf"
+1538582695085	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["menus", "contextMenus"], be one of ["identity"], be one of ["geckoProfiler"], be one of ["pkcs11"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538582695086	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538582695086	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538582695176	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538582695184	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538582695647	Marionette	INFO	Listening on port 58605
+1538582695898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538582695942	Marionette	DEBUG	[2147483649] Frame script loaded
+1538582695943	Marionette	DEBUG	[2147483649] Frame script registered
+1538582696219	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538582696223	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538582696399	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["menus", "contextMenus"], be one of ["identity"], be one of ["geckoProfiler"], be one of ["pkcs11"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538582696400	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538582696400	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 2ms; not stored in cache (too small to benefit))
+1538582697689	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["menus", "contextMenus"], be one of ["identity"], be one of ["geckoProfiler"], be one of ["pkcs11"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538582697689	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538582697689	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538582697703	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538582697705	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Child 16932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co1538582793777	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.tGmCb0zpgaqd"
+1538582796269	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538582796270	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538582796270	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538582796347	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538582796356	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538582796919	Marionette	INFO	Listening on port 58665
+1538582797099	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538582797143	Marionette	DEBUG	[2147483649] Frame script loaded
+1538582797183	Marionette	DEBUG	[2147483649] Frame script registered
+1538582797272	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538582797353	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538582797364	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538582797583	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538582797584	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538582797585	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538582797681	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 2ms; not stored in cache (too small to benefit))
+1538582798083	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+1538582801898	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538582801898	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538582801898	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538582801930	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538582801932	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538582805157	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Child 16264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16264, Chrome_ChildT[Child 4604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4604, C[Child 15688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11538583964829	Marionette	INFO	Stopped listening on port 58665
+[GPU 8620, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+e one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583237859	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583237859	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583237944	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583237953	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538583238750	Marionette	INFO	Listening on port 58844
+1538583238988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538583239023	Marionette	DEBUG	[2147483649] Frame script loaded
+1538583239026	Marionette	DEBUG	[2147483649] Frame script registered
+1538583239085	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583239094	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538583239308	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538583239355	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583239356	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583239356	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 2ms; not stored in cache (too small to benefit))
+1538583240622	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538583241207	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1538583241431	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583241431	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583241431	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583241451	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583241454	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+1538583248215	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Parent 3848, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_wi[Child 12736, Chromen.cc, l_ChildThreadine ] WARNING: pipe error: 109: file z346
+:/build/b[Childui 348l4d,/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12736, C[Child 6544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6544, 1538583314023	Marionette	INFO	Stopped listening on port 58844
+[GPU 16188, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538583448043	geckodriver	INFO	geckodriver 0.21.0
+1538583448055	geckodriver	INFO	Listening on 127.0.0.1:58976
+1538583455570	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.Pm90MAaQcFoV"
+1538583457994	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583457996	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583457997	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583458108	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583458119	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538583458857	Marionette	INFO	Listening on port 58991
+1538583458936	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538583459018	Marionette	DEBUG	[2147483649] Frame script loaded
+1538583459020	Marionette	DEBUG	[2147483649] Frame script registered
+1538583459068	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538583459608	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583459629	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538583459629	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+1538583460592	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583460594	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583460594	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 3ms; not stored in cache (too small to benefit))
+1538583461105	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1538583462910	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583462911	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583462911	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583462964	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583462969	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538583463212	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Child 13728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co1538583622772	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.w7lG7onlB6A8"
+1538583625286	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583625286	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583625287	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583625408	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583625417	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538583626212	Marionette	INFO	Listening on port 59190
+1538583626471	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583626479	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538583626688	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583626690	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583626691	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583626714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538583626754	Marionette	DEBUG	[2147483649] Frame script loaded
+1538583626755	Marionette	DEBUG	[2147483649] Frame script registered
+1538583626798	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms; not stored in cache (too small to benefit))
+1538583628011	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538583628420	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1538583628913	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583628914	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583628914	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583628944	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583628949	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538583629685	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Child 6580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 658[Child 17644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17641538583961537	Marionette	INFO	Stopped listening on port 59190
+[GPU 10572, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+g permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583725675	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583725675	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583725766	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583725774	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538583726461	Marionette	INFO	Listening on port 59295
+1538583726843	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538583726881	Marionette	DEBUG	[2147483649] Frame script loaded
+1538583726882	Marionette	DEBUG	[2147483649] Frame script registered
+1538583726923	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538583726925	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583726931	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538583727115	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583727116	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583727116	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 2ms; not stored in cache (too small to benefit))
+1538583727612	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538583729195	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 474: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 474: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 123: TypeError: win is null
+1538583729463	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583729465	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583729465	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 474: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 474: TypeError: context.contentWindow is null
+1538583729519	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583729524	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1538583758619	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+[Child 14112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channe[Chlil_win.cc,d 1 line 340984, C6
+hrome_ChildTh[Child 14112read] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10984, Chrome_Child1538583961089	Marionette	INFO	Stopped listening on port 59295
+[GPU 2932, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583849111	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583849111	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583849191	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583849200	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538583849877	Marionette	INFO	Listening on port 59396
+1538583849889	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538583849930	Marionette	DEBUG	[2147483649] Frame script loaded
+1538583849931	Marionette	DEBUG	[2147483649] Frame script registered
+1538583849971	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538583850198	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583850205	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538583850425	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583850427	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583850427	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583850438	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+1538583850825	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 2ms; not stored in cache (too small to benefit))
+1538583852551	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583852551	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583852552	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583852572	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583852582	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+1538583857523	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Parent 4348, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4348, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19064, Chrome_ChildT[Child 19356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19356,1538583960074	Marionette	INFO	Stopped listening on port 59396
+[GPU 7448,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rowserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583887772	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583887772	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583887902	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583887917	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538583888762	Marionette	INFO	Listening on port 59491
+1538583888787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538583888831	Marionette	DEBUG	[2147483649] Frame script loaded
+1538583888832	Marionette	DEBUG	[2147483649] Frame script registered
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+1538583889145	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889146	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889164	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889165	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889180	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889181	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889193	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889194	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889204	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889204	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889214	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583889219	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538583889387	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889388	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889401	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583889402	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583889402	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms; not stored in cache (too small to benefit))
+1538583889842	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889842	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889866	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889867	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889883	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583889883	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890072	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890072	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890084	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890085	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890102	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+removeAddonMetadata@XPIDatabase.jsm:1984:5
+updateAddonMetadata@XPIDatabase.jsm:1965:5
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890103	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+addToDatabase@XPIDatabase.jsm:1947:5
+updateAddonMetadata@XPIDatabase.jsm:1973:12
+updateMetadata@XPIDatabase.jsm:2500:12
+updateExistingAddon@XPIDatabase.jsm:2635:18
+processFileChanges@XPIDatabase.jsm:2707:26
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890112	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890114	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890115	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890116	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890117	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890118	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890119	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890120	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890121	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890122	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890124	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890125	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890126	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890126	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890126	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890126	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890126	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890126	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890126	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890126	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+makeAddonVisible@XPIDatabase.jsm:2015:5
+applyStartupChange@XPIDatabase.jsm:2887:5
+processFileChanges@XPIDatabase.jsm:2767:21
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890138	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIDatabase.jsm:1276:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1276:17
+processFileChanges@XPIDatabase.jsm:2799:5
+getNewSideloads@XPIProvider.jsm:2575:7
+1538583890149	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583890150	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583890150	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583890172	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583890173	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+[Parent 5172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20228, Chro1538583890505	Marionette	INFO	Stopped listening on port 59491
+[GPU 19
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538583899478	geckodriver	INFO	geckodriver 0.21.0
+1538583899501	geckodriver	INFO	Listening on 127.0.0.1:59508
+1538583906530	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.anaxtE5dbHgS"
+1538583909290	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["history"], be one of ["find"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583909291	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583909291	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583909369	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583909379	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1538583910071	Marionette	INFO	Listening on port 59518
+1538583910391	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583910397	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1538583910527	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538583910564	Marionette	DEBUG	[2147483649] Frame script loaded
+1538583910566	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["history"], be one of ["find"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583910567	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583910567	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583910569	Marionette	DEBUG	[2147483649] Frame script registered
+1538583910596	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms; not stored in cache (too small to benefit))
+1538583911042	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538583912430	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 474: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 474: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 123: TypeError: win is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 474: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 474: TypeError: context.contentWindow is null
+1538583912829	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["history"], be one of ["find"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1538583912830	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1538583912830	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1538583912861	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1538583912864	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+1538583918225	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Child 14912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc[Chi, lineld 346
+ 20356,[Child 14912, Chro Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20356, Chrome_ChildThread] WARNING: pip[Parent 20060, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538583959596	Marionette	INFO	Stopped listening on port 59518
+[GPU 15704, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
