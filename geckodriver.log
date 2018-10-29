@@ -687,3 +687,527 @@ Log warning: The log 'Services.Common.RESTRequest' is configured to use the pref
 [GPU 15704, Chrome_C
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1539092394595	geckodriver	INFO	geckodriver 0.21.0
+1539092394642	geckodriver	INFO	Listening on 127.0.0.1:59757
+1539092401593	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.Js0P8FU2xLdq"
+1539092403056	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1539092403058	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1539092403058	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1539092403138	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1539092403145	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1539092403861	Marionette	INFO	Listening on port 59765
+1539092403945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539092403979	Marionette	DEBUG	[2147483649] Frame script loaded
+1539092403984	Marionette	DEBUG	[2147483649] Frame script registered
+1539092404041	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539092404153	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1539092404157	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 3ms; not stored in cache (too small to benefit))
+1539092404838	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1539092404840	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1539092404840	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1539092405905	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1539092405906	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1539092405906	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1539092405919	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1539092405921	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1539092405981	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+1539092409479	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1539092508884	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+1539092509412	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.santostang.com/2018/07/04/hello-world/
+1539092509847	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.santostang.com/2018/07/04/hello-world/
+1539092510507	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1539092513689	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.santostang.com/2018/07/04/hello-world/
+1539092513690	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+1539092513989	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.santostang.com/2018/07/04/hello-world/
+1539092514080	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/
+1539092514253	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/
+[Child 2512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Child 11240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11240, Chrome_Chi[Child 17536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17536, Chrome_ChildThr1539095083681	Marionette	INFO	Stopped listening on port 59765
+[GPU 106
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ne of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1539093001919	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1539093001920	addons.webextension.{a6fd85ed-e919-4a43-a5af-8da18bda539f}	WARN	Loading extension '{a6fd85ed-e919-4a43-a5af-8da18bda539f}': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1539093002011	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1539093002018	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+Extension error: TypeError: response is undefined moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js 863
+[[Exception stack
+apply/<@moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.preload.js:863:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:236:133
+wrapPromise/</<@resource://gre/modules/ExtensionCommon.jsm:447:15
+withLastError@resource://gre/modules/ExtensionCommon.jsm:371:14
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:439:11
+]]
+JavaScript error: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/include.postload.js, line 766: Error: Could not establish connection. Receiving end does not exist.
+1539093002758	Marionette	INFO	Listening on port 60023
+1539093003030	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1539093003033	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1539093003279	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539093003335	Marionette	DEBUG	[2147483649] Frame script loaded
+1539093003341	Marionette	DEBUG	[2147483649] Frame script registered
+JavaScript warning: moz-extension://5bd01fbc-6d18-4e10-aac3-a37d869398c1/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms; not stored in cache (too small to benefit))
+1539093003791	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539093004031	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1539093004033	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1539093004033	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1539093004808	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539093006502	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1539093007092	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1539093007094	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1539093007094	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1539093007112	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1539093007114	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://cpmanager-legacy/ceTracking-old.jsm, line 27: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1539093213363	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+[Parent 8420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chr[Child 1ome/comm255on6, Chrome_ChildThread] WAR/ipc_channel_win.cc, line 346
+NING: pipe err[Child or: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12556[Child 17568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17568, Ch1539093257256	Marionette	INFO	Stopped listening on port 60023
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539095800452	geckodriver	INFO	geckodriver 0.21.0
+1539095800467	geckodriver	INFO	Listening on 127.0.0.1:60762
+1539095803514	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.lX6b8jmOQdqu"
+1539095805657	Marionette	INFO	Listening on port 60771
+1539095805757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539095805791	Marionette	DEBUG	[4294967297] Frame script loaded
+1539095805795	Marionette	DEBUG	[4294967297] Frame script registered
+[Parent 14680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8564, Chrome_ChildT[Child 15596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15596, C[Parent 14680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9464,1539095845183	Marionette	INFO	Stopped listening on port 60771
+[GPU 15736, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539095893497	geckodriver	INFO	geckodriver 0.21.0
+1539095893497	geckodriver	INFO	Listening on 127.0.0.1:60809
+1539095896559	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.IcLv12P5zeKV"
+1539095898687	Marionette	INFO	Listening on port 60818
+1539095898823	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539095898853	Marionette	DEBUG	[6442450945] Frame script loaded
+1539095898854	Marionette	DEBUG	[6442450945] Frame script registered
+[Parent 14880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10340, Chrome_ChildThre[Child 5248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5248, Chr[Parent 14880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 68521539095911062	Marionette	INFO	Stopped listening on port 60818
+[GPU 13552, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539096142946	geckodriver	INFO	geckodriver 0.21.0
+1539096142962	geckodriver	INFO	Listening on 127.0.0.1:60915
+1539096145993	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.qoRRCEhmaRxH"
+1539096148371	Marionette	INFO	Listening on port 60923
+1539096148856	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539096148880	Marionette	DEBUG	[6442450945] Frame script loaded
+1539096148881	Marionette	DEBUG	[6442450945] Frame script registered
+1539096148895	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539096149352	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539096168073	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1539096279677	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+1539096626327	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539096626327	addons.xpi	ERROR	Failed to download system add-on telemetry-coverage-bug1487578@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1539096626913	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539096626914	addons.xpi	ERROR	Failed to download system add-on fxmonitor@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1539096626914	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+[Parent 6504, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6504, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13560,[Parent 6504, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7676, Chro1539104716386	Marionette	INFO	Stopped listening on port 60923
+[GPU 17
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539180050951	geckodriver	INFO	geckodriver 0.21.0
+1539180050967	geckodriver	INFO	Listening on 127.0.0.1:64381
+1539180054046	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.JrHHmJe5510q"
+1539180056622	Marionette	INFO	Listening on port 64389
+1539180056795	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539180056826	Marionette	DEBUG	[6442450945] Frame script loaded
+1539180056826	Marionette	DEBUG	[6442450945] Frame script registered
+1539180056847	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539180057811	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539180062080	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1539180103562	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.santostang.com/2018/07/04/hello-world/
+1539180198298	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1539180198302	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539180198305	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539180445257	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1539180445267	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539180445267	addons.xpi	ERROR	Failed to download system add-on gmp-gmpopenh264: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1539180445270	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539180445271	addons.xpi	ERROR	Failed to download system add-on gmp-widevinecdm: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1539180445272	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+[Parent 12836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c1539183706987	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539183707048	Marionette	DEBUG	[6442450945] Frame script loaded
+1539183707050	Marionette	DEBUG	[6442450945] Frame script registered
+1539183707085	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539183707497	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539183708532	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1539183721808	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.santostang.com/2018/07/04/hello-world/
+1539183721811	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+[Parent 17648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9308, Chrome_Ch[Child 4332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4332, C[Parent 17648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15080, Chrome_ChildThread] WARNING: pipe e1539183722047	Marionette	INFO	Stopped listening on port 64852
+[GPU 8744, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539183726073	geckodriver	INFO	geckodriver 0.21.0
+1539183726088	geckodriver	INFO	Listening on 127.0.0.1:64882
+1539183729158	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.3houaT1CIESC"
+1539183731266	Marionette	INFO	Listening on port 64890
+1539183731317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539183731371	Marionette	DEBUG	[6442450945] Frame script loaded
+1539183731377	Marionette	DEBUG	[6442450945] Frame script registered
+1539183731418	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539183731814	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539183732146	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.santostang.com/2018/07/04/hello-world/
+1539183765935	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.santostang.com/2018/07/04/hello-world/
+1539183765937	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+[Child 3316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18012, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 18012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18012, Ch[Child 13036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13036, Chrome1539183766152	Marionette	INFO	Stopped listening on port 64890
+[GPU 19412, Chrome_ChildThread
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539184111690	geckodriver	INFO	geckodriver 0.21.0
+1539184111706	geckodriver	INFO	Listening on 127.0.0.1:64939
+1539184114815	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.38I3QRz2ods8"
+1539184118013	Marionette	INFO	Listening on port 64947
+1539184118087	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539184118125	Marionette	DEBUG	[6442450945] Frame script loaded
+1539184118125	Marionette	DEBUG	[6442450945] Frame script registered
+1539184118155	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539184118686	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1539184119493	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.baidu.com/
+1539184119684	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.baidu.com/
+[Child 11376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11376, C[Child 20088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20088[Parent 14676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12320, Chrome_Ch1539184131033	Marionette	INFO	Stopped listening on port 64947
+[GPU 1056
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539273978314	geckodriver	INFO	geckodriver 0.21.0
+1539273978361	geckodriver	INFO	Listening on 127.0.0.1:52593
+1539273981407	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.h1GIrajDaVSY"
+1539273983994	Marionette	INFO	Listening on port 52601
+1539273984257	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539273984286	Marionette	DEBUG	[6442450945] Frame script loaded
+1539273984286	Marionette	DEBUG	[6442450945] Frame script registered
+[Child 6616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6616,[Child 2220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2220, Ch[Parent 13236, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10608, Chrome_ChildThread] WARNING: 1539274128827	Marionette	INFO	Stopped listening on port 52601
+[GPU 4120,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+eunload for about:blank
+1539274130340	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539274133739	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://shenzhen.anjuke.com/antispam-block/?from=antispam#filtersort.format(i)
+JavaScript error: https://pages.anjukestatic.com/usersite/site/xxfw/xxfw1.min.js, line 1: ReferenceError: Test is not defined
+1539274139933	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://shenzhen.anjuke.com/antispam-block/?from=antispam#filtersort.format(i)
+1539274139935	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://shenzhen.anjuke.com/antispam-block/?from=antispam#filtersort.format(i)
+1539274142993	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://shenzhen.anjuke.com/antispam-block/?from=antispam#filtersort.format(i)
+1539274143970	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://shenzhen.anjuke.com/antispam-block/?from=antispam#filtersort.format(i)
+1539274146385	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://shenzhen.anjuke.com/antispam-block/?from=antispam#filtersort.format(i)
+1539274154455	Marionette	DEBUG	[6442450945] Received DOM event unload for https://shenzhen.anjuke.com/antispam-block/?from=antispam#filtersort.format(i)
+1539274155902	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539274155902	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539274158364	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sz.news.anjuke.com/?from=navigation
+JavaScript error: https://pages.anjukestatic.com/kfstouch/js/58antiSpider/20180807001/xxfw.min.js, line 1: ReferenceError: Test is not defined
+1539274158641	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sz.news.anjuke.com/?from=navigation
+1539274158643	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sz.news.anjuke.com/?from=navigation
+1539274160360	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sz.news.anjuke.com/?from=navigation
+1539274172893	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sz.news.anjuke.com/?from=navigation
+1539274173016	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://shenzhen.anjuke.com/antispam-block/?from=antispam
+1539274173087	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+JavaScript error: https://pages.anjukestatic.com/usersite/site/xxfw/xxfw1.min.js, line 1: ReferenceError: Test is not defined
+1539274181586	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://shenzhen.anjuke.com/antispam-block/?from=antispam
+1539274181630	Marionette	DEBUG	[6442450945] Received DOM event unload for https://shenzhen.anjuke.com/antispam-block/?from=antispam
+1539274181636	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539274181637	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1539274181637	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1539274181637	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1539274181638	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+[Parent 7568, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7568, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11580, Chrom[Child 15112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15112, Chro[Child 9580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9580, Chrome_C1539274181873	Marionette	INFO	Stopped listening on port 52676
+[GPU 7
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539491404048	geckodriver	INFO	geckodriver 0.21.0
+1539491404093	geckodriver	INFO	Listening on 127.0.0.1:51015
+1539491407101	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.z5AP3GPEvzfP"
+1539491409584	Marionette	INFO	Listening on port 51023
+1539491409873	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539491409905	Marionette	DEBUG	[6442450945] Frame script loaded
+1539491409906	Marionette	DEBUG	[6442450945] Frame script registered
+[Child 26584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29[Child 26584, Chrome_ChildTh2r9ea2, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29292, Chrome_ChildThr[Parent 23788, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23416, Chrome_ChildThrea1539491487067	Mari1539491487195	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539491488130	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539491495795	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+1539491892713	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539491897864	addons.xpi	ERROR	Failed to download system add-on gmp-widevinecdm: [Exception... "File download failed"  nsresult: "0x194 (<unknown>)"  location: "JS frame :: resource://gre/modules/addons/ProductAddonChecker.jsm :: downloadFile/</xhr.onload :: line 296"  data: no] Stack trace: downloadFile/</xhr.onload()@resource://gre/modules/addons/ProductAddonChecker.jsm:296
+1539491934766	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539491934767	addons.xpi	ERROR	Failed to download system add-on gmp-gmpopenh264: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1539491934769	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+1539492159444	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539492201467	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 20464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20464, Chrome_Ch[Child 27904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27904, Chrome_ChildThr[Parent 28412, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 314561539492370456	Marionette	INFO	Stopped listening on port 51099
+[GPU 1940,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: unreachable code after return statement
+1539491950661	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539491956873	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+1539492159456	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539492201466	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539492355109	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539492355659	addons.xpi	ERROR	Failed to download system add-on gmp-widevinecdm: [Exception... "File download failed"  nsresult: "0x194 (<unknown>)"  location: "JS frame :: resource://gre/modules/addons/ProductAddonChecker.jsm :: downloadFile/</xhr.onload :: line 296"  data: no] Stack trace: downloadFile/</xhr.onload()@resource://gre/modules/addons/ProductAddonChecker.jsm:296
+[Child 26532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/s1539492372749	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539492372749	addons.xpi	ERROR	Failed to download system add-on gmp-gmpopenh264: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1539492372751	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated s1539492374915	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539492376037	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539492382366	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+1539492524299	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539492538759	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539492538761	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 29176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/[Child ipc_chann404el0, _wChrinome.c_ChildcTh, line read] WARNING:346 pipe 
+error: 232: file z:[/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 4040, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 4040, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 4040, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 4040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 28436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13484, Chr1539492538884	Marionette	INFO	Stopped listening on port 51934
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539494522630	geckodriver	INFO	geckodriver 0.21.0
+1539494522644	geckodriver	INFO	Listening on 127.0.0.1:52555
+1539494525683	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.Na1Xeo2CMLPD"
+1539494528002	Marionette	INFO	Listening on port 52563
+1539494528450	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539494528490	Marionette	DEBUG	[6442450945] Frame script loaded
+1539494528491	Marionette	DEBUG	[6442450945] Frame script registered
+1539494528507	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539494531016	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539494532159	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539494538364	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+[Child 9768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line [Child 9492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src3/ipc/chromium/src/chrome/com46mon/ipc_channel_win.cc, line 346
+
+[Child 9768[, Chrome_ChildT[Parent 30120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 254841539494914600	Marionette	INFO	Stopped listening on port 52563
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+e code after return statement
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539494544265	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539494551603	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+[Child 7284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channe[Child 30520, Chrol_win.cc, lminee_ChildThrea 346d
+] WARNING: pipe error[Chi: ld109:  7284, Chrome_ChildThread] WARfile z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30520, Chrome_ChildThread] WARNING: [Parent 16992, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28592, Ch1539494915360	M1539494917064	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539494918158	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539494925375	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+[Child 3020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3020, Chrome_ChildThread] WARNING: pipe error: 109: file z:[Child 32640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32640, Chrome[Child 8004, Chrome_ChildThread] WARNING: pipe error1539494956100	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\[GPU 29944, Chrome_ChildThread1539494959079	Marionette	INFO	Listening on port 53258
+1539494959357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539494959399	Marionette	DEBUG	[6442450945] Frame script loaded
+1539494959401	Marionette	DEBUG	[6442450945] Frame script registered
+1539494959429	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539494961801	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://b3.hoopchina.com.cn/w1539494966564	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+[Child 32380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[C
+###!!! [Child][RunMessage] Error: Channel closing: too late to sen1539494970475	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+[Parent 8568, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14128, Ch[Child 28440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Child 1312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1312, 1539494972195	Marionette	INFO	Stopped listening on port 53258
+[GPU 27996, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539494993029	geckodriver	INFO	geckodriver 0.21.0
+1539494993042	geckodriver	INFO	Listening on 127.0.0.1:53401
+1539494996081	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.bPE9ZvVdQgQs"
+1539494998235	Marionette	INFO	Listening on port 53409
+1539494998261	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539494998349	Marionette	DEBUG	[6442450945] Frame script loaded
+1539494998352	Marionette	DEBUG	[6442450945] Frame script registered
+1539494998388	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539495000027	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539495000028	Marionette	DEBUG	[6442450945] Received DOM event unload for about:blank
+1539495000030	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+1539495000049	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///D:/%E8%BD%AF%E4%BB%B6/%E7%81%AB%E7%8B%90/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///D:/%E8%BD%AF%E4%BB%B6/%E7%81%AB%E7%8B%90/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1592:20
+_shutdown@XPIProvider.jsm:1728:12
+observe@AsyncShutdown.jsm:541:9
+[Parent 17964, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17964, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24280, [Child 15852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15852, Chrome_Chil[Child 29784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29784, ChrJavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1539495000286	Marionette	INFO	Stopped listening on port 53409
+[GPU 25056,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539495005281	geckodriver	INFO	geckodriver 0.21.0
+1539495005293	geckodriver	INFO	Listening on 127.0.0.1:53430
+1539495008344	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.q7DLtjyBdNr2"
+1539495011465	Marionette	INFO	Listening on port 53439
+1539495011614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539495011652	Marionette	DEBUG	[6442450945] Frame script loaded
+1539495011652	Marionette	DEBUG	[6442450945] Frame script registered
+1539495011675	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539495014012	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539495014939	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539495022204	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+[Child 1736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_ch[Channel_wild 17956,i Chrn.cc, line 346o
+me_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 17956, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 17956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17956, Chrome_Chil[Child 8300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 83001539495207522	Marionette	INFO	Stopped listening on port 53439
+[GPU 24100, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539495264095	geckodriver	INFO	geckodriver 0.21.0
+1539495264107	geckodriver	INFO	Listening on 127.0.0.1:53732
+1539495267153	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.2SjxLNO2mGRG"
+1539495269583	Marionette	INFO	Listening on port 53740
+1539495269915	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539495269945	Marionette	DEBUG	[6442450945] Frame script loaded
+1539495269946	Marionette	DEBUG	[6442450945] Frame script registered
+1539495269973	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539495272554	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539495273580	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539495280045	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+1539495400893	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539495442972	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539495678188	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539495679379	addons.xpi	ERROR	Failed to download system add-on gmp-widevinecdm: [Exception... "File download failed"  nsresult: "0x194 (<unknown>)"  location: "JS frame :: resource://gre/modules/addons/ProductAddonChecker.jsm :: downloadFile/</xhr.onload :: line 296"  data: no] Stack trace: downloadFile/</xhr.onload()@resource://gre/modules/addons/ProductAddonChecker.jsm:296
+1539495720228	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539495720229	addons.xpi	ERROR	Failed to download system add-on gmp-gmpopenh264: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1539495720230	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+[Child 22128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22128, Chr[Parent 7688, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 7956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7956, Chrome_ChildTh[Parent 7688, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31768, 1539496031721	Marionette	INFO	Stopped listening on port 53740
+[GPU 27888, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539495979339	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539495991817	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+[Child 25340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25340, Ch[Child 28408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2841539496030839	Marionette	INFO	Stopped listening on port 54135
+[GPU 7584, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539496370250	geckodriver	INFO	geckodriver 0.21.0
+1539496370268	geckodriver	INFO	Listening on 127.0.0.1:54305
+1539496373294	mozrunner::runner	INFO	Running command: "D:\\软件\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\R\\AppData\\Local\\Temp\\rust_mozprofile.Og24Oizaux73"
+1539496375592	Marionette	INFO	Listening on port 54313
+1539496376046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539496376087	Marionette	DEBUG	[6442450945] Frame script loaded
+1539496376088	Marionette	DEBUG	[6442450945] Frame script registered
+1539496376111	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539496378596	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+JavaScript warning: https://b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js, line 1: unreachable code after return statement
+1539496379668	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://bbs.hupu.com/bxj
+1539496386996	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://bbs.hupu.com/bxj
+1539496741858	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539496783880	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539496784302	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1539496789211	addons.xpi	ERROR	Failed to download system add-on gmp-widevinecdm: [Exception... "File download failed"  nsresult: "0x194 (<unknown>)"  location: "JS frame :: resource://gre/modules/addons/ProductAddonChecker.jsm :: downloadFile/</xhr.onload :: line 296"  data: no] Stack trace: downloadFile/</xhr.onload()@resource://gre/modules/addons/ProductAddonChecker.jsm:296
+1539496826321	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539496826322	addons.xpi	ERROR	Failed to download system add-on gmp-gmpopenh264: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1539496826324	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+[Parent 8076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14112, Chrome_Chi[Parent 8076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21996, Chrome_ChildThread[Parent 8076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31736, Chro1539502629262	Marionette	INFO	Stopped listening on port 54313
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

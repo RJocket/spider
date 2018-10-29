@@ -27,3 +27,16 @@ comments = driver.find_elements_by_css_selector('div.reply-content')
 for each in comments:
 	content = each.find_element_by_tag_name('p')
 	print(content.text)
+
+'''
+
+    find_element_by_id：通过元素的id选择，例如:driver.find_element_by_id(‘loginForm’)
+    find_element_by_name：通过元素的name选择，driver.find_element_by_name(‘password’)
+    find_element_by_xpath：通过xpath选择，driver.find_element_by_xpath(“//form[1]”)
+    find_element_by_link_text：通过链接地址选择
+    find_element_by_partial_link_text：通过链接的部分地址选择
+    find_element_by_tag_name：通过元素的名称选择
+    find_element_by_class_name：通过元素的id选择
+    find_element_by_css_selector：通过css选择器选择
+
+'''
